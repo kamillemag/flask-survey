@@ -18,7 +18,7 @@ debug = DebugToolbarExtension(app)
 def show_survey_start():
     """Select a survey."""
 
-    return render_template("survey_start.html", survey=survey)
+    return render_template("home.html", survey=survey)
 
 
 @app.route("/begin", methods=["POST"])
