@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock %}
+
+{% block content %}
+<h1> Welcome to Satisfaction Survey </h1>
+<p> You have been selected to fill out our customer satisfaction survey. Please click the link below to start.</p>
+<form action="/begin" method="POST">
+    <button>Start!</button>
+  </form>
+{% endblock %}
